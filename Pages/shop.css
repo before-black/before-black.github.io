@@ -35,4 +35,66 @@ a {
     text-align: right;
     position: relative;
     margin: 20px 20px;
+    
+  ;
+}
+
+.shopsection {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    position: static;
+    margin-left: 12.5%;
+    margin-right: 10%;
+    z-index: 999;
+}
+
+
+.product_box {
+    float: left;
+	width: 25%;
+	text-align: center;
+	margin-top: 2.1875rem;
+    margin-bottom: 1.5rem;
+	padding-bottom: 20px;
+	border-bottom: 5px solid #ccc;
+    border-top: 5px solid #ccc;
+    position: relative;
+    z-index: 999;
+    display: inline-block;
+    
+}
+
+.product_box p {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+.product_box img {
+	margin-bottom: 5px;
+}
+.product_box h3 {
+    font-family: 'Kaushan Script', cursive;
+	font-size: 18px;
+	color: #000;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.product_box .product_price {
+	color: #11bdd1;
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+
+h1 { 
+    color: #333; 
+    font-weight: normal;
+    font-style: italic;
+    font-size: 18px;
+    margin: 0 0 30px; 
+    padding: 5px 0;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
 }
