@@ -16,3 +16,18 @@
     text-align: right;
     margin: 20px 20px;
 }
+
+#home input {
+    float: left;
+}
+
+#home input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+#home input[type=text]:focus {
+    width: 90%;
+}

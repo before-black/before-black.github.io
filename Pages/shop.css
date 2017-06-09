@@ -40,18 +40,32 @@ a {
     text-align: right;
     position: relative;
     margin: 20px 20px;
-    
-  ;
+}
+
+#home input {
+    float: left;
+}
+
+#home input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+#home input[type=text]:focus {
+    width: 90%;
 }
 
 .shopsection {
     height: auto;
-    width: 100%;
+    width: 70%;
     text-align: center;
     position: static;
-    margin-left: 12.5%;
+    margin-left: 15.5%;
     margin-right: 10%;
     z-index: 999;
+    
 }
 
 
@@ -67,6 +81,7 @@ a {
     position: relative;
     z-index: 999;
     display: inline-block;
+    background-color: #e6eeff;
     
 }
 
