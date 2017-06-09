@@ -53,3 +53,19 @@ a {
   margin: 20px;
     
 }
+
+#home {
+    text-align: right;
+    position: relative;
+    margin: 20px 20px;
+}
+
+.music {
+    text-align: center;
+    height: auto;
+    width: 100%;
+    position: static;
+    left: 0;
+    top: 580px;
+    z-index: 999;
+}

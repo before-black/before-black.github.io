@@ -3,4 +3,8 @@ p {
     font-size: 60px;
     font-family: 'Nixie One', cursive;
 }
-    
+
+.home {
+    text-align: right;
+    margin: 20px 20px;
+}

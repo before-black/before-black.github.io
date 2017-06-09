@@ -25,3 +25,8 @@
 br {
         line-height: 0.1em;
      }
+
+#home {
+    text-align: right;
+    margin: 20px 20px;
+}
