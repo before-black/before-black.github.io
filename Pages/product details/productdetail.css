@@ -1,0 +1,97 @@
+a {
+    color: black;
+    
+}
+
+
+.navigation {
+  background-color: rgba(255, 255, 255, 0.9);
+  height: auto;
+  width: 100%;
+  text-align: center;
+  position: static;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+}
+
+.navigation li {
+  color: #444512;
+  display: inline-block;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  margin: 30px;
+  text-transform: uppercase;
+  
+}
+
+.navigation li a:hover {
+    color: aliceblue;
+    background-color: #3D3D3D;
+}
+
+.home {
+    text-align: right;
+    position: relative;
+    margin: 20px 20px;
+}
+
+.home input {
+    float: left;
+}
+
+.home input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+.home input[type=text]:focus {
+    width: 90%;
+}
+
+.resim {
+    width: 360px;
+    float: left;
+    border-top: 5px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.25);
+    margin: 110px 250px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    
+}
+
+.chart {
+    width: 205px;
+    float: left;
+    margin: 510px -531px;
+    
+}
+
+.acıklama {
+    width: 450px;
+    float: right;
+    margin: -505px 250px;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    background-color: #ccccff;
+    
+}
+
+.acıklama h {
+    font-size: 21px;
+    font-weight: bold;
+    
+}
