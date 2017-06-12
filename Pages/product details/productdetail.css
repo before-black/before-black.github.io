@@ -113,3 +113,7 @@ footer{
     text-align: center;
     z-index: 999;
 }
+
+.menu {
+    box-shadow: 0 13px 15px rgba(0,0,0,0.45);
+}
