@@ -5,7 +5,7 @@
     height: auto;
     width: 100%;
     position: static;
-    z-index: auto;
+    z-index: 998;
 }
 
 .header {
@@ -30,4 +30,16 @@
 /* When the input field gets focus, change its width to 100% */
 #home input[type=text]:focus {
     width: 90%;
+}
+
+footer{
+    position:fixed;
+    height:50px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+    text-align: center;
+    color: rgba(1,2,3,0.68);
+    z-index: 999;
 }
