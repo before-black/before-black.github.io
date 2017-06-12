@@ -42,6 +42,13 @@ a {
 .navigation li a:hover {
     color: aliceblue;
     background-color: #3D3D3D;
+    list-style: circle;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-shadow: 0 13px 15px rgba(0,0,0,0.45);
+    padding: 15px 30px 10px 30px;
 }
 
 .home {
