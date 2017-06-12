@@ -1,3 +1,7 @@
+body {
+    background-image: url("../Images/pexels-photo-301717.jpeg");
+}
+
 .content {
     font-family: 'Nixie One', cursive;
     display: inline-block;

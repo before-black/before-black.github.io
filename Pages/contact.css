@@ -1,4 +1,6 @@
-
+body {
+    background-image: url("../Images/pexels-photo-301717.jpeg");
+}
 
 .links {
     display: inline-block;

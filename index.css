@@ -1,4 +1,6 @@
-
+body {
+    background-image: url("Images/pexels-photo-301717.jpeg");
+}
 
 a {
     color: black;
@@ -7,7 +9,7 @@ a {
 
 
 .navigation {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255);
   height: auto;
   width: 100%;
   text-align: center;
