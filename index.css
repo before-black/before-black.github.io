@@ -88,7 +88,7 @@ a {
 }
 
 .home input[type=text] {
-    width: 130px;
+    width: 140px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }

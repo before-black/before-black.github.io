@@ -18,8 +18,28 @@
         
         <div class="home">
             
-            <input type="text" name="search" placeholder="Search..">
-                
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search in BeforeBlack" title="Type in a name">
+            
+            <script>
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+</script>
+
+                    
             <a href="http://beforeblack.co.uk/"><img src="Icons\home-page-icon-0.png" width="20px"></a>
                    
         </div>
@@ -30,7 +50,7 @@
             
                 <div class="menu">
         
-                    <ul>
+                    <ul id="myUL">
                         <li class="active"><a href="Pages/hastags.html" style="text-decoration:none">Photos</a></li>
                         <li class="active"><a href="Pages/shop.html" style="text-decoration:none">Shop</a></li>
                         <li class="active"><a href="Pages/about%20us.html" style="text-decoration:none">About Us</a></li>
