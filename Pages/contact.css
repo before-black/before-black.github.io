@@ -1,5 +1,5 @@
 body {
-    background-image: url("../Images/pexels-photo-301717.jpeg");
+    background-image: url("../Images/pexels-photo-301717.jpg");
 }
 
 .links {
@@ -16,6 +16,7 @@ body {
 
 .info {
     font-family: 'Nixie One', cursive;
+    font-weight: bolder;
     display: inline-block;
     text-align: center;
     height: auto;
