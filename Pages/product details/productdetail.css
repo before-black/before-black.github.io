@@ -23,7 +23,8 @@ body {
 .navigation ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;    
+    padding: 0;   
+     box-shadow: 0 13px 15px rgba(0,0,0,0.45);
 }
 
 .navigation li {
@@ -112,8 +113,4 @@ footer{
     margin-bottom:0px;
     text-align: center;
     z-index: 999;
-}
-
-.menu {
-    box-shadow: 0 13px 15px rgba(0,0,0,0.45);
 }

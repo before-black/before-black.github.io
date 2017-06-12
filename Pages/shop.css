@@ -20,6 +20,7 @@ a {
 
 .navigation ul {
   padding: 0;
+ box-shadow: 0 13px 15px rgba(0,0,0,0.45);
 }
 
 .navigation li {
@@ -143,5 +144,5 @@ footer{
 }
 
 .menu {
-    box-shadow: 0 13px 15px rgba(0,0,0,0.45);
+   
 }
