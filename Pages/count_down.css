@@ -30,7 +30,9 @@ p {
 }
 
 footer{
-    position:fixed;
+    position:relative;
+    width: 85%;
+    margin-left: 7%;
     height:50px;
     bottom:0px;
     left:0px;

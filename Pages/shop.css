@@ -128,9 +128,11 @@ h1 {
 
 
 footer{
-    position:fixed;
+    position: relative;
     height:50px;
-    background-color: rgba(255, 255, 255, 1);
+    width: 85%;
+    margin-left: 7%;
+    background-color: rgba(255, 255, 255, 0.5);
     bottom:0px;
     left:0px;
     right:0px;

@@ -105,10 +105,12 @@ body {
 
 
 footer{
-    position:fixed;
+    position:relative;
     height:40px;
+    width: 85%;
+    margin-left: 7%;
     bottom:0px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, .5);
     left:0px;
     right:0px;
     margin-bottom:0px;
