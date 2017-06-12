@@ -11,19 +11,20 @@ a {
 .navigation {
   background-color: rgba(255, 255, 255);
   height: auto;
-  width: 100%;
+  width: 85%;
   text-align: center;
   position: static;
   left: 0;
   top: 0;
   z-index: 999;
+  margin-left: 7%;
 }
 
 
 .navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;    
+    padding: 0;
+    box-shadow: 0 13px 15px rgba(0,0,0,0.45);
+    background-color: rgba(215, 215, 193, 0.7);
 }
 
 .navigation li {
@@ -42,10 +43,6 @@ a {
 .navigation li a:hover {
     color: aliceblue;
     background-color: #3D3D3D;
-}
-
-.menu {
-    box-shadow: 0 13px 15px rgba(0,0,0,0.45);
 }
 
 .description {
@@ -114,5 +111,15 @@ footer{
     text-align: center;
     color: rgba(1,2,3,0.68);
     z-index: 999;
+        
+}
+
+.container {
+    height: 280px;
+    width: 85%;
+    z-index: 997;
+    margin-left: 7%;
+    background-color: rgba(255, 255, 255, 0.4);
+    
         
 }

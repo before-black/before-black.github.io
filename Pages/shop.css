@@ -10,17 +10,19 @@ a {
 .navigation {
   background-color: rgba(255, 255, 255);
   height: auto;
-  width: 100%;
+  width: 85%;
   text-align: center;
   position: static;
   left: 0;
   top: 0;
-  z-index: 998;
+  z-index: 999;
+  margin-left: 7%;
 }
 
 .navigation ul {
-  padding: 0;
- box-shadow: 0 13px 15px rgba(0,0,0,0.45);
+    padding: 0;
+    box-shadow: 0 13px 15px rgba(0,0,0,0.45);
+    background-color: rgba(215, 215, 193, 0.7);
 }
 
 .navigation li {
@@ -138,6 +140,15 @@ footer{
     z-index: 999;
 }
 
+.container {
+    height: 1200px;
+    width: 85%;
+    z-index: 997;
+    margin-left: 7%;
+    background-color: rgba(255, 255, 255, 0.4);
+    
+        
+}
 .blank {
     height: 55;
     padding: 520px

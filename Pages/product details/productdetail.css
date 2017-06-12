@@ -11,20 +11,20 @@ body {
 .navigation {
   background-color: rgba(255, 255, 255);
   height: auto;
-  width: 100%;
+  width: 85%;
   text-align: center;
   position: static;
   left: 0;
   top: 0;
   z-index: 999;
+  margin-left: 7%;
 }
 
 
 .navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;   
-     box-shadow: 0 13px 15px rgba(0,0,0,0.45);
+    padding: 0;
+    box-shadow: 0 13px 15px rgba(0,0,0,0.45);
+    background-color: rgba(215, 215, 193, 0.7);
 }
 
 .navigation li {
@@ -71,7 +71,7 @@ body {
     float: left;
     border-top: 5px;
     box-shadow: 0 13px 15px rgba(0,0,0,0.45);
-    margin: 110px 250px;
+    margin: 110px 80px;
     text-align: center;
     font-family: 'Kaushan Script', cursive;
     font-size: 20px;
@@ -81,14 +81,14 @@ body {
 .chart {
     width: 205px;
     float: left;
-    margin: 510px -531px;
+    margin: 510px -365px;
     
 }
 
 .acıklama {
     width: 450px;
     float: right;
-    margin: -505px 250px;
+    margin: -405px 130px;
     text-align: center;
     font-family: 'Poiret One', cursive;
     background-color: #ccccff;
@@ -113,4 +113,14 @@ footer{
     margin-bottom:0px;
     text-align: center;
     z-index: 999;
+}
+
+.container {
+    height: 600px;
+    width: 85%;
+    z-index: 997;
+    margin-left: 7%;
+    background-color: rgba(255, 255, 255, 0.4);
+    
+        
 }
