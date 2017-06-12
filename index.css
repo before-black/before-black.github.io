@@ -99,6 +99,7 @@ a {
 
 footer{
     position:fixed;
+    background-color: rgba(255, 255, 255, 1);
     height:50px;
     bottom:0px;
     left:0px;
