@@ -5,7 +5,9 @@
     
     <title>#BeforeBlack</title>
     
-    <script type="text/javascript" src="/Pages/instafeed.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Julius+Sans+One" rel="stylesheet">
+        
+    <link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet">
     
     <link rel="stylesheet" type="text/css" href="hastags.css">
 
@@ -13,22 +15,42 @@
 </head>
     
 <body>
-
-    <div id="instafeed">
     
-        <script type="text/javascript">
+    <div class="home">
+            
+            <input type="text" name="search" placeholder="Search..">
+                
+            <a href="http://beforeblack.co.uk/"><img src="/Icons/home-page-icon-0.png" width="20px"></a>
+                   
+        </div>
         
-        var feed = new Instafeed({
-            get: 'tagged',
-            tagName: 'beforeblack',
-            clientId: 'e34a1d6482754fb18fc981b3a4402e7e'
-        });
-        feed.run();
+        <div class="navigation">
         
-        </script>
+                <img src="/Icons/icon%20try%203%20copy.png" width="240px">
+            
+                <div class="menu">
         
+                    <ul>
+                        <li class="active"><a href="Pages/hastags.html" style="text-decoration:none">Photos</a></li>
+                        <li class="active"><a href="Pages/shop.html" style="text-decoration:none">Shop</a></li>
+                        <li class="active"><a href="Pages/about%20us.html" style="text-decoration:none">About Us</a></li>
+                        <li class="active"><a href="Pages/contact.html" style="text-decoration:none">Contact</a></li>   
+                    </ul>
+            </div>
     </div>
     
+    <div class="insta">
+    
+    <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/951fe0eaf013546893ebbec8cc055806.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+        
+    </div>
+
 </body>
+    
+<footer>
+        
+    <p>&copy; 2017 beforeblack.co.uk<p>
+    
+</footer>
 
 </html>
