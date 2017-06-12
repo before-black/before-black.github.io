@@ -89,6 +89,7 @@ body {
     width: 450px;
     float: right;
     margin: -405px 130px;
+    position: relative;
     text-align: center;
     font-family: 'Poiret One', cursive;
     background-color: #ccccff;
