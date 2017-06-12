@@ -68,25 +68,23 @@ a {
     width: 70%;
     text-align: center;
     position: static;
-    margin-left: 15.5%;
-    margin-right: 10%;
+    margin-left: 14.5%;
+    margin-right: 5%;
     z-index: 998;
+    display: flex;
+   justify-content:space-between;
     
 }
 
 
 .product_box {
     float: left;
-	width: 25%;
+	width: 30%;
 	text-align: center;
-	margin-top: 2.1875rem;
-    margin-bottom: 1.5rem;
-	padding-bottom: 20px;
-	border-bottom: 5px solid #ccc;
-    border-top: 5px solid #ccc;
-    position: relative;
+	padding-bottom: 10px;
+    border-spacing: 5px;
+    position: static;
     z-index: 999;
-    display: inline-block;
     background-color: rgba(153, 204, 255, 0.3);
     
     
