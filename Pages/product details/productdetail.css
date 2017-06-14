@@ -94,8 +94,9 @@ body {
 .chart {
     position: static;
     float: left; 
-    margin-left: 15%;
-    margin-top: 5%
+    margin-left: 8.5%;
+    margin-top: 5%;
+    width: 350px
 }
 
 .acıklama {
@@ -142,4 +143,63 @@ footer{
     background-color: rgba(255, 255, 255, 0.4);
     
         
+}
+
+#AddToCart {
+  display: inline-block; 
+  font-family: 'Julius Sans One', sans-serif;
+  border-radius: 4px;
+  box-shadow: 0 13px 15px rgba(0,0,0,0.45);
+  border-color: #000;
+  background-color: rgba(215, 215, 193, 1);
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+  width: 47.5%;
+  height: 15%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 15px;
+  float: left;
+    margin: 1.25%;
+}
+
+
+
+#AddToCart span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#AddToCart span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#AddToCart:hover span {
+  padding-right: 10px;
+}
+
+#AddToCart:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#productSelect {
+    width: 80%;
+    height: 35px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 500;
+    color: black;
+    border-radius: 4px;
+    margin-left: 10%;
+    
 }
