@@ -120,16 +120,17 @@ body {
 
 
 footer{
-    position: static;
-    height:40px;
+    position:relative;
+    height:50px;
     width: 85%;
     margin-left: 7%;
+    background-color: rgba(255, 255, 255, 0.5);
     bottom:0px;
-    background-color: rgba(255, 255, 255, .5);
     left:0px;
     right:0px;
     margin-bottom:0px;
     text-align: center;
+    color: rgba(1,2,3,0.68);
     z-index: 999;
 }
 
