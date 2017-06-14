@@ -73,7 +73,7 @@ a {
 }
 
 .shopsection {
-    height: auto;
+    height: 40%;
     max-width: 70%;
     min-width: 50%;
     text-align: center;
@@ -105,11 +105,17 @@ a {
     font-weight: bold;
 }
 
+
 .product_box img {
 	margin-bottom: 5px;
     min-width: 30%;
     max-width: 90%;
 }
+
+.product_box img a:hover {
+    padding-top: 5px;
+}
+
 .product_box h3 {
     font-family: 'Kaushan Script', cursive;
 	font-size: 18px;
@@ -169,3 +175,42 @@ footer{
 .menu {
    
 }
+
+
+/* resim hoveri */
+.imgcontain {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  
+  width: 100%;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.imgcontain:hover .overlay {
+  opacity: 0.3;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
