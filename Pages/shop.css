@@ -74,7 +74,8 @@ a {
 
 .shopsection {
     height: auto;
-    width: 70%;
+    max-width: 70%;
+    min-width: 50%;
     text-align: center;
     position: relative;
     margin-left: 14.5%;
@@ -106,6 +107,8 @@ a {
 
 .product_box img {
 	margin-bottom: 5px;
+    min-width: 30%;
+    max-width: 90%;
 }
 .product_box h3 {
     font-family: 'Kaushan Script', cursive;

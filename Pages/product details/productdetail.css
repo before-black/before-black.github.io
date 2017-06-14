@@ -75,7 +75,7 @@ body {
 }
 
 .resim {
-    width: 360px;
+    max-width: 350px;
     float: left;
     border-top: 5px;
     box-shadow: 0 13px 15px rgba(0,0,0,0.45);
@@ -86,18 +86,25 @@ body {
     
 }
 
+.resim img {
+    max-width: 100%;
+    min-width: 20%;
+}
+
 .chart {
-    width: 205px;
-    float: left;
-    margin: 510px -365px;
-    
+    position: static;
+    float: left; 
+    margin-left: 15%;
+    margin-top: 5%
 }
 
 .acıklama {
-    width: 450px;
+    max-width: 40%;
+    min-width: 150px;
     float: left;
-    margin: 121px 38px;
-    position: relative;
+    margin-top: 10%;
+    margin-left: 4%;
+    position: static;
     text-align: center;
     font-family: 'Poiret One', cursive;
     background-color: #ccccff;
@@ -113,7 +120,7 @@ body {
 
 
 footer{
-    position:relative;
+    position: static;
     height:40px;
     width: 85%;
     margin-left: 7%;
