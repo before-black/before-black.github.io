@@ -86,12 +86,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #fff0b3;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #fff0b3;
   text-shadow: none;
 }
 
@@ -455,7 +455,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #fff0b3;
 }
 
 .timeline > li .timeline-image h4 {
@@ -696,5 +696,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #fff0b3;
 }
