@@ -111,7 +111,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Curriculum Vitae</h2>
-            <h3 class="section-subheading text-muted">Highligts Only(Please send an e-mail for full CV)</h3>
+            <h3 class="section-subheading text-muted">Highligts Only(<a href="https://drive.google.com/file/d/1BBsrJ-bndciYj1JwTaX1-7TfBDSXoJJz/view?usp=sharing">Click to See Full CV</a>)</h3>
           </div>
         </div>
         <div class="row">
@@ -245,7 +245,71 @@
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Ting Restaurant Staff App</h2>
                   <p class="item-intro text-muted">React-Native</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                    
+                                  <div class="w3-content w3-display-container">
+                                      <!-- images -->
+                                  <img class="mySlides" src="img/portfolio/01-full.png" style="width:50%;
+                                                                                               display: block;
+                                                                                               margin-left: auto;
+                                                                                               margin-right: auto;">
+                                  <img class="mySlides" src="img/portfolio/02-full.png" style="width:50%;
+                                                                                               display: block;
+                                                                                               margin-left: auto;
+                                                                                               margin-right: auto;">
+                                  <img class="mySlides" src="img/portfolio/03-full.png" style="width:50%;
+                                                                                               display: block;
+                                                                                               margin-left: auto;
+                                                                                               margin-right: auto;">
+                                  <img class="mySlides" src="img/portfolio/04-full.png" style="width:50%;
+                                                                                               display: block;
+                                                                                               margin-left: auto;
+                                                                                               margin-right: auto;">
+
+                                  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)" 
+                                          style="
+                                                background-color: gray;
+                                                border: none;
+                                                color: white;
+                                                padding: 15px 32px;
+                                                text-align: center;
+                                                text-decoration: none;
+                                                display: inline-block;
+                                                font-size: 16px;
+                                                margin: 4px 2px;
+                                                cursor: pointer;">&#10094;</button>
+                                  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)" style="
+                                                background-color: gray;
+                                                border: none;
+                                                color: white;
+                                                padding: 15px 32px;
+                                                text-align: center;
+                                                text-decoration: none;
+                                                display: inline-block;
+                                                font-size: 16px;
+                                                margin: 4px 2px;
+                                                cursor: pointer;">&#10095;</button>
+                                </div>
+
+                                <script>
+                                var slideIndex = 1;
+                                showDivs(slideIndex);
+
+                                function plusDivs(n) {
+                                  showDivs(slideIndex += n);
+                                }
+
+                                function showDivs(n) {
+                                  var i;
+                                  var x = document.getElementsByClassName("mySlides");
+                                  if (n > x.length) {slideIndex = 1}    
+                                  if (n < 1) {slideIndex = x.length}
+                                  for (i = 0; i < x.length; i++) {
+                                     x[i].style.display = "none";  
+                                  }
+                                  x[slideIndex-1].style.display = "block";  
+                                }
+                                </script>
+                    
                   <p>Basic react-native app that shows information about company and have training files for employers</p>
                   <ul class="list-inline">
                     <li>Date: June 2018</li>
@@ -279,7 +343,7 @@
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Shangri-La Social Media Champion</h2>
                   <p class="item-intro text-muted">Photography</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                    <a href="https://www.instagram.com/tinglondon"><img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt=""></a>
                   <p>Chosen among employers to capture moments and share them on restaurants official instagram account.</p>
                   <ul class="list-inline">
                     <li>June 2018</li>
